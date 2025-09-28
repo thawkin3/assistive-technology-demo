@@ -56,12 +56,22 @@ function App() {
         </button>
       </div>
       <h2>Images</h2>
+      <p><b>With alt text</b></p>
       <div className="hStack">
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo vite" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+      <p><b>Without alt text</b></p>
+      <div className="hStack">
+        <a href="https://vite.dev" target="_blank">
+          <img src={viteLogo} className="logo vite" />
+        </a>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" />
         </a>
       </div>
       <h2>Text</h2>
