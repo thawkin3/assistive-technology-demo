@@ -58,7 +58,7 @@ function App() {
       <h2>Images</h2>
       <div className="hStack">
         <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+          <img src={viteLogo} className="logo vite" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
@@ -178,6 +178,17 @@ function App() {
         pulvinar efficitur. Ut ac metus rhoncus justo convallis molestie. Morbi
         et justo at ligula dignissim tincidunt.
       </p>
+      <h2>Motion preferences</h2>
+      <p><b>Respects user preferences</b></p>
+      <div className="hStack">
+        <img src={viteLogo} className="logo vite pulse respectful" alt="Vite logo" />
+        <img src={reactLogo} className="logo react spin respectful" alt="React logo" />
+      </div>
+      <p><b>Does not respect user preferences</b></p>
+      <div className="hStack">
+        <img src={viteLogo} className="logo vite pulse disrespectful" alt="Vite logo" />
+        <img src={reactLogo} className="logo react spin disrespectful" alt="React logo" />
+      </div>
     </main>
   );
 }
