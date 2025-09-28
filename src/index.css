@@ -99,3 +99,12 @@ h1 {
 .nonAdjustableFontSize {
   font-size: 16px;
 }
+
+.hardCodedWidth {
+  width: 800px;
+}
+
+.responsiveWidth {
+  max-width: 800px;
+  width: 100%;
+}

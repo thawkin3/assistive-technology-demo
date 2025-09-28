@@ -101,6 +101,83 @@ function App() {
         pulvinar efficitur. Ut ac metus rhoncus justo convallis molestie. Morbi
         et justo at ligula dignissim tincidunt.
       </p>
+      <h2>Responsive Layouts</h2>
+      <p>
+        <b>Non-wrapping</b>
+      </p>
+      <div className="hStack">
+        <button className="btn primary" type="button" onClick={() => {}}>
+          Button One
+        </button>
+        <button className="btn primary" type="button" onClick={() => {}}>
+          Button Two
+        </button>
+        <button className="btn primary" type="button" onClick={() => {}}>
+          Button Three
+        </button>
+        <button className="btn primary" type="button" onClick={() => {}}>
+          Button Four
+        </button>
+        <button className="btn primary" type="button" onClick={() => {}}>
+          Button Five
+        </button>
+        <button className="btn primary" type="button" onClick={() => {}}>
+          Button Six
+        </button>
+      </div>
+      <p className="hardCodedWidth">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        quis justo et nisl efficitur tincidunt. Aliquam erat volutpat. Etiam at
+        molestie velit. Nunc lobortis diam quis velit aliquet pellentesque.
+        Curabitur laoreet ex eu justo efficitur, vitae sollicitudin risus
+        facilisis. Sed sodales augue vitae sem sollicitudin, vel lobortis justo
+        scelerisque. Nunc malesuada ligula id nibh elementum, ac tincidunt
+        mauris convallis. Orci varius natoque penatibus et magnis dis parturient
+        montes, nascetur ridiculus mus. Etiam sodales eu nulla a dictum. Donec
+        vitae nibh at diam pellentesque varius quis eu quam. Duis odio felis,
+        varius ut congue scelerisque, pulvinar et quam. Etiam scelerisque
+        dapibus fermentum. Sed quis mattis lorem. Ut aliquam laoreet diam
+        pulvinar efficitur. Ut ac metus rhoncus justo convallis molestie. Morbi
+        et justo at ligula dignissim tincidunt.
+      </p>
+      <p>
+        <b>Wrapping</b>
+      </p>
+      <div className="hStack wrap">
+        <button className="btn primary" type="button" onClick={() => {}}>
+          Button One
+        </button>
+        <button className="btn primary" type="button" onClick={() => {}}>
+          Button Two
+        </button>
+        <button className="btn primary" type="button" onClick={() => {}}>
+          Button Three
+        </button>
+        <button className="btn primary" type="button" onClick={() => {}}>
+          Button Four
+        </button>
+        <button className="btn primary" type="button" onClick={() => {}}>
+          Button Five
+        </button>
+        <button className="btn primary" type="button" onClick={() => {}}>
+          Button Six
+        </button>
+      </div>
+      <p className="responsiveWidth">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        quis justo et nisl efficitur tincidunt. Aliquam erat volutpat. Etiam at
+        molestie velit. Nunc lobortis diam quis velit aliquet pellentesque.
+        Curabitur laoreet ex eu justo efficitur, vitae sollicitudin risus
+        facilisis. Sed sodales augue vitae sem sollicitudin, vel lobortis justo
+        scelerisque. Nunc malesuada ligula id nibh elementum, ac tincidunt
+        mauris convallis. Orci varius natoque penatibus et magnis dis parturient
+        montes, nascetur ridiculus mus. Etiam sodales eu nulla a dictum. Donec
+        vitae nibh at diam pellentesque varius quis eu quam. Duis odio felis,
+        varius ut congue scelerisque, pulvinar et quam. Etiam scelerisque
+        dapibus fermentum. Sed quis mattis lorem. Ut aliquam laoreet diam
+        pulvinar efficitur. Ut ac metus rhoncus justo convallis molestie. Morbi
+        et justo at ligula dignissim tincidunt.
+      </p>
     </main>
   );
 }
