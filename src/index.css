@@ -117,3 +117,7 @@ h1 {
   max-width: 800px;
   width: 100%;
 }
+
+.noUserSelect {
+  user-select: none;
+}

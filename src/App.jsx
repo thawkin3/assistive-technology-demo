@@ -264,6 +264,9 @@ function App() {
           alt="React logo"
         />
       </div>
+      <h2>Selectable text</h2>
+      <p>I can be highlighted.</p>
+      <p className="noUserSelect">I can NOT be highlighted.</p>
       <h2>Text input</h2>
       <div className="vStack">
         <label htmlFor="favoriteColor">Favorite color</label>
