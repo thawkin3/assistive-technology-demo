@@ -1,16 +1,24 @@
-# React + Vite
+# Assistive Technology Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This demo is part of a talk for the International JavaScript Conference New York 2025. Learn how you can create web apps that work well with various assistive technologies.
 
-Currently, two official plugins are available:
+The app is built using Vite, React, and vanilla CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Running Locally
 
-## React Compiler
+1. `npm install`
+2. `npm run dev`
+3. Open your browser to http://localhost:5173/ (or whatever your terminal shows)
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Ideas for Things You Can Test
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Keyboard-only navigation
+2. Browser zoom
+3. Text room
+4. Device responsiveness
+5. Hover text
+6. Screen reader navigation
+7. Reduced motion preferences
+8. Spoken content
+9. Voice control
+10. Pointer control
