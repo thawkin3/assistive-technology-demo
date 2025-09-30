@@ -1,3 +1,5 @@
+import deleteIcon from './assets/delete.svg';
+import editIcon from './assets/edit.svg';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
@@ -55,8 +57,49 @@ function App() {
           Button 6
         </button>
       </div>
+      <h2>Icon buttons</h2>
+      <p>
+        <b>With alt text on image (or aria-label on button)</b>
+      </p>
+      <div className="hStack">
+        <button
+          className="btn default"
+          type="button"
+          onClick={() => alert('clicked Delete!')}
+        >
+          <img src={deleteIcon} height={24} width={24} alt="Delete" />
+        </button>
+        <button
+          className="btn default"
+          type="button"
+          onClick={() => alert('clicked Edit!')}
+        >
+          <img src={editIcon} height={24} width={24} alt="Edit" />
+        </button>
+      </div>
+      <p>
+        <b>Without alt text on image (or aria-label on button)</b>
+      </p>
+      <div className="hStack">
+        <button
+          className="btn default"
+          type="button"
+          onClick={() => alert('clicked Delete!')}
+        >
+          <img src={deleteIcon} height={24} width={24} />
+        </button>
+        <button
+          className="btn default"
+          type="button"
+          onClick={() => alert('clicked Edit!')}
+        >
+          <img src={editIcon} height={24} width={24} />
+        </button>
+      </div>
       <h2>Images</h2>
-      <p><b>With alt text</b></p>
+      <p>
+        <b>With alt text</b>
+      </p>
       <div className="hStack">
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo vite" alt="Vite logo" />
@@ -65,7 +108,9 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <p><b>Without alt text</b></p>
+      <p>
+        <b>Without alt text</b>
+      </p>
       <div className="hStack">
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo vite" />
