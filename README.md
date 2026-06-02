@@ -1,6 +1,6 @@
 # Assistive Technology Demo
 
-This demo is part of a talk for the International JavaScript Conference New York 2025. Learn how you can create web apps that work well with various assistive technologies.
+This demo is part of a talk I gave at the International JavaScript Conference New York 2025 and the International JavaScript Conference San Diego 2026. You can use it to learn how you can create web apps that work well with various assistive technologies.
 
 The app is built using Vite, React, and vanilla CSS.
 
