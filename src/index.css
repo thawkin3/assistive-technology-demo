@@ -114,8 +114,8 @@ h1 {
 }
 
 .responsiveWidth {
-  max-width: 800px;
-  width: 100%;
+  width: 800px;
+  max-width: 100%;
 }
 
 .noUserSelect {

@@ -25,7 +25,7 @@ function App() {
           role="button"
           tabIndex={0}
           onClick={() => alert('clicked button 3!')}
-          onKeyPress={(event) => {
+          onKeyDown={(event) => {
             if (event.key === ' ' || event.key === 'Enter') {
               event.preventDefault();
               alert('clicked button 3!');
